@@ -3,8 +3,10 @@
 **高并发的远程网盘**:客户端远程访问可以查看文件目录，下载/上传文件。服务端高并发响应多个客户端的响应。
 
 <!-- <img src="./res/image1.png" style="zoom:67%;" /> -->
-![效果图](https://github.com/Android-9527/netDisk/blob/master/res/image1.png)
-
+<!-- ![效果图](https://github.com/Android-9527/netDisk/blob/master/res/image1.png) -->
+<p align="center">
+  <img src="./res/image1.png" alt="效果图" width="400"/>
+</p>
 **服务端/客户端父子进程多线程架构**：
 
 服务端退出：由于SIGUSR1(Ctrl+C)信号量对线程支持不好容易造成死锁，所以父进程fork得到子进程。父子进程通过管道通讯，父进程监听SIGUSR1(Ctrl+C)信号，当检测到信号时候通过管道发放消息给子进程。子进程监听pipe[0]设置线程池程序退出变量runningFlag，信号量唤醒等待线程然后退出线程，还在人物的线程任务完成后检测到退出变量则退出线程，子进程join得到所有线程结束，父进程wait等待子进程结束。
