@@ -3,7 +3,7 @@
 **高并发的远程网盘**:客户端远程访问可以查看文件目录，下载/上传文件。服务端高并发响应多个客户端的响应。
 
 <!-- <img src="./res/image1.png" style="zoom:67%;" /> -->
-![效果图](blob:https://github.com/5b888a08-73eb-48e6-8d1d-5171d46a2ef4)
+![效果图](https://github.com/Android-9527/netDisk/blob/master/res/image1.png)
 
 **服务端/客户端父子进程多线程架构**：
 
