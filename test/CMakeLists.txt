@@ -18,10 +18,10 @@ add_executable(MyProject
     ../src/WordSegmenter.cpp
 )
 # 添加源文件
-# add_executable(test
-#     test2.cpp
+add_executable(test
+    test2.cpp
     
-# )
+)
 
 
 

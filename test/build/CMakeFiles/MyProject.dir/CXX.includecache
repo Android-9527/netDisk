@@ -20,16 +20,6 @@ set
 WordSegmenter.h
 ../../include/WordSegmenter.h
 
-../../include/WordQuery.h
-string
--
-unordered_map
--
-vector
--
-set
--
-
 ../../include/WordSegmenter.h
 Jieba.hpp
 -
@@ -329,16 +319,8 @@ locale
 -
 algorithm
 -
-
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp
-WordSegmenter.h
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.h
-
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/test.cpp
-DictProducer.h
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/DictProducer.h
-WordQuery.h
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/WordQuery.h
-iostream
+dirent.h
+-
+sys/stat.h
 -
 

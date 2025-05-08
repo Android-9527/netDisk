@@ -29,7 +29,7 @@ int main() {
     // 加载停用词
     auto stopWords = loadStopWords(STOP_WORD_PATH);
 
-    std::string sentence = "In this first book of the series, The Good Eggs display goodness within their community such as。";
+    std::string sentence = "Ciaramitaro's contribution";
     // std::string sentence = "   今　年“五一”假期，我国旅sususu游市场整体呈现火热而有序的景象。经文化和旅游部数据中心测算，假期5天，全国国内出游 3.14 亿人次，同比增长6.4%；国内游客出游总花费1802.69亿元，同比增长8.0%。";
     std::vector<std::string> words;
 

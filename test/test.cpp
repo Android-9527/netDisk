@@ -2,13 +2,16 @@
 #include "WordQuery.h"
 #include <iostream>
 int Dict_test() {
-    DictProducer dictEn("../../data/entest.txt");
-    DictProducer dictCn("../../data/cntest.txt");
-    dictEn.buildEnDict(); // 如果是英文
-    dictCn.buildCnDict(); // 如果是中文
+    // DictProducer dictEn("../../data/entest.txt");
+    // dictEn.buildEnDict(); // 如果是英文
+    // dictEn.storeDict("dictEn.txt");
+    // dictEn.storeIndex("indexEn.txt");
 
-    dictEn.storeDict("dictEn.txt");
-    dictEn.storeIndex("indexEn.txt");
+    DictProducer dictCn("../../data/textdata");
+    
+    dictCn.buildEnCnDict(); // 如果是中文
+
+    
 
     dictCn.storeDict("dictCn.txt");
     dictCn.storeIndex("indexCn.txt");
