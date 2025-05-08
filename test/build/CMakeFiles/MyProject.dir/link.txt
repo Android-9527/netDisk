@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/MyProject.dir/test.cpp.o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o  -o MyProject 
