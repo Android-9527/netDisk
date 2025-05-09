@@ -57,75 +57,255 @@ include CMakeFiles/MyProject.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyProject.dir/flags.make
 
-CMakeFiles/MyProject.dir/test.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/test.cpp.o: ../test.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/test.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/test.cpp.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/test.cpp
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc
 
-CMakeFiles/MyProject.dir/test.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/test.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/test.cpp > CMakeFiles/MyProject.dir/test.cpp.i
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i
 
-CMakeFiles/MyProject.dir/test.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/test.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/test.cpp -o CMakeFiles/MyProject.dir/test.cpp.s
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o: CMakeFiles/MyProject.dir/flags.make
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i
 
-CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o: CMakeFiles/MyProject.dir/flags.make
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o: /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o -c /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc > CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i
+
+CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc -o CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s
 
 # Object files for target MyProject
 MyProject_OBJECTS = \
-"CMakeFiles/MyProject.dir/test.cpp.o" \
-"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o" \
-"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o" \
-"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o"
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o" \
+"CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o"
 
 # External object files for target MyProject
 MyProject_EXTERNAL_OBJECTS =
 
-MyProject: CMakeFiles/MyProject.dir/test.cpp.o
-MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o
-MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o
-MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o
+MyProject: CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o
 MyProject: CMakeFiles/MyProject.dir/build.make
 MyProject: CMakeFiles/MyProject.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable MyProject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable MyProject"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MyProject.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

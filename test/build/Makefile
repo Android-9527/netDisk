@@ -111,19 +111,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 test
-.PHONY : test
-
-# fast build rule for target.
-test/fast:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/build
-.PHONY : test/fast
-
-#=============================================================================
 # Target rules for targets named MyProject
 
 # Build rule for target.
@@ -136,140 +123,437 @@ MyProject/fast:
 	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/build
 .PHONY : MyProject/fast
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.o
 
 # target to build an object file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.i
 
 # target to preprocess a source file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.i
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.s
 
 # target to generate assembly for a file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.s
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.o
+
+# target to build an object file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.i
+
+# target to preprocess a source file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.i
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s
+
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.s
+
+# target to generate assembly for a file
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.s
+
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.o
 
 # target to build an object file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.i
 
 # target to preprocess a source file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.i
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.s
 
 # target to generate assembly for a file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.s
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.o: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.o
 
 # target to build an object file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.i: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.i
 
 # target to preprocess a source file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.i
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.i
 
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.s: home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s
 
 .PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.s
 
 # target to generate assembly for a file
-home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s
-.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.s
-
-test.o: test.cpp.o
-
-.PHONY : test.o
-
-# target to build an object file
-test.cpp.o:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/test.cpp.o
-.PHONY : test.cpp.o
-
-test.i: test.cpp.i
-
-.PHONY : test.i
-
-# target to preprocess a source file
-test.cpp.i:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/test.cpp.i
-.PHONY : test.cpp.i
-
-test.s: test.cpp.s
-
-.PHONY : test.s
-
-# target to generate assembly for a file
-test.cpp.s:
-	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/test.cpp.s
-.PHONY : test.cpp.s
-
-test2.o: test2.cpp.o
-
-.PHONY : test2.o
-
-# target to build an object file
-test2.cpp.o:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test2.cpp.o
-.PHONY : test2.cpp.o
-
-test2.i: test2.cpp.i
-
-.PHONY : test2.i
-
-# target to preprocess a source file
-test2.cpp.i:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test2.cpp.i
-.PHONY : test2.cpp.i
-
-test2.s: test2.cpp.s
-
-.PHONY : test2.s
-
-# target to generate assembly for a file
-test2.cpp.s:
-	$(MAKE) -f CMakeFiles/test.dir/build.make CMakeFiles/test.dir/test2.cpp.s
-.PHONY : test2.cpp.s
+home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s:
+	$(MAKE) -f CMakeFiles/MyProject.dir/build.make CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s
+.PHONY : home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.s
 
 # Help Target
 help:
@@ -279,23 +563,55 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... test"
 	@echo "... MyProject"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.s"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.o"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.i"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.s"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.o"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.i"
+	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.s"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.o"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.i"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.s"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.o"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.i"
 	@echo "... home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.s"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
-	@echo "... test2.o"
-	@echo "... test2.i"
-	@echo "... test2.s"
 .PHONY : help
 
 

@@ -59,7 +59,8 @@ void *Thread::threadFunc(void *arg)
     }
     else
     {
-        printf("hello\n");
+        printf("no thread\n");
+
     }
 
     pthread_exit(nullptr);

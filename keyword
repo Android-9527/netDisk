@@ -1,0 +1,48 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	modified:   include/EchoServer.h
+#	renamed:    src/DictProducer.cpp -> src/DictProducer.cc
+#	modified:   src/Thread.cc
+#	renamed:    src/WordQuery.cpp -> src/WordQuery.cc
+#	renamed:    src/WordSegmenter.cpp -> src/WordSegmenter.cc
+#	modified:   test/CMakeLists.txt
+#	modified:   test/build/CMakeFiles/Makefile.cmake
+#	modified:   test/build/CMakeFiles/Makefile2
+#	modified:   test/build/CMakeFiles/MyProject.dir/CXX.includecache
+#	modified:   test/build/CMakeFiles/MyProject.dir/DependInfo.cmake
+#	modified:   test/build/CMakeFiles/MyProject.dir/build.make
+#	modified:   test/build/CMakeFiles/MyProject.dir/cmake_clean.cmake
+#	modified:   test/build/CMakeFiles/MyProject.dir/depend.internal
+#	modified:   test/build/CMakeFiles/MyProject.dir/depend.make
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Acceptor.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Condition.cc.o
+#	renamed:    test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp.o -> test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/EventLoop.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/InetAddress.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/MutexLock.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Socket.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/SocketIO.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TaskQueue.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpConnection.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TcpServer.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/TestEchoServer.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/Thread.cc.o
+#	new file:   test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/ThreadPool.cc.o
+#	renamed:    test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cpp.o -> test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordQuery.cc.o
+#	renamed:    test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cpp.o -> test/build/CMakeFiles/MyProject.dir/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/WordSegmenter.cc.o
+#	modified:   test/build/CMakeFiles/MyProject.dir/link.txt
+#	modified:   test/build/CMakeFiles/MyProject.dir/progress.make
+#	modified:   test/build/CMakeFiles/TargetDirectories.txt
+#	modified:   test/build/CMakeFiles/progress.marks
+#	modified:   test/build/Makefile
+#	modified:   test/build/MyProject
+#
+# Untracked files:
+#	.vscode/
+#

@@ -3,6 +3,8 @@
 #include "ThreadPool.h"
 #include "TcpServer.h"
 #include "TcpConnection.h"
+#include "WordQuery.h"
+#include <sstream>
 #include <iostream>
 
 using std::cout;
@@ -19,8 +21,38 @@ public:
     }
     void process()
     {
-        //后面项目的时候，将业务逻辑在此处添加
-        _con->sendInLoop(_msg);
+        // 获取 WordQuery 单例对象
+        WordQuery& wordQuery = WordQuery::getInstance("dictCn.txt", "indexCn.txt");
+        
+        // 去除消息中可能的空白字符
+        string query = _msg;
+        query.erase(0, query.find_first_not_of(" \t\r\n"));
+        query.erase(query.find_last_not_of(" \t\r\n") + 1);
+        
+        if (query.empty()) {
+            _con->sendInLoop("请输入查询关键词");
+            return;
+        }
+        
+        // 进行查询
+        auto suggestions = wordQuery.query(query);
+        
+        // 构建响应消息
+        std::ostringstream oss;
+        oss << "查询: '" << query << "'\n";
+        
+        if (suggestions.empty()) {
+            oss << "没有找到匹配的结果\n";
+        } else {
+            oss << "找到 " << suggestions.size() << " 个结果:\n";
+            for (const auto& suggestion : suggestions) {
+                oss << "  " << suggestion << "\n";
+            }
+        }
+        
+        // 将查询结果发送给客户端
+        _con->sendInLoop(oss.str());
+        // _con->sendInLoop(_msg);
     }
 private:
     string _msg;
