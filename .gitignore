@@ -1,0 +1,29 @@
+# 忽略build目录
+/build/
+/build-*/
+
+# 忽略CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# 忽略编译产生的文件
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# 忽略IDE相关文件
+.vscode/
+.idea/
+*.swp
+*~
+
+# 忽略其他临时文件
+*.log
