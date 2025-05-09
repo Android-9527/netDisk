@@ -33,7 +33,7 @@ int query() {
             std::cout << "  " << word << "\n";
     }
 
-    
+    // gaid
     return 0;
 }
 
