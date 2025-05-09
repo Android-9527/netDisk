@@ -1,3 +1,0 @@
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles/rebuild_cache.dir
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles/edit_cache.dir
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/build/CMakeFiles/MyProject.dir
