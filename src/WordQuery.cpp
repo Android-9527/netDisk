@@ -4,6 +4,14 @@
 #include <algorithm>
 #include <iostream>
 #include <queue>
+// 线程安全的单例实现 (C++11 及更高版本)
+WordQuery& WordQuery::getInstance(const std::string& dictPath, const std::string& indexPath) {
+    // 局部静态变量的初始化在 C++11 中是线程安全的
+    static WordQuery instance(dictPath, indexPath);
+    
+    
+    return instance;
+}
 
 WordQuery::WordQuery(const std::string& dictFile, const std::string& indexFile) {
     loadDict(dictFile);
@@ -35,7 +43,7 @@ void WordQuery::loadIndex(const std::string& path) {
 }
 
 // 将UTF-8字符串拆分为字符序列（中英文都支持）
-std::vector<std::string> splitUTF8(const std::string& str) {
+std::vector<std::string> WordQuery::splitUTF8(const std::string& str) {
     std::vector<std::string> result;
     for (size_t i = 0; i < str.size();) {
         unsigned char ch = str[i];
@@ -53,7 +61,7 @@ std::vector<std::string> splitUTF8(const std::string& str) {
 }
 
 // 编辑距离函数（Levenshtein）
-int editDistanceUTF8(const std::string& s1, const std::string& s2) {
+int WordQuery::editDistanceUTF8(const std::string& s1, const std::string& s2) {
     auto v1 = splitUTF8(s1);
     auto v2 = splitUTF8(s2);
 

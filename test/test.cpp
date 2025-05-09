@@ -20,7 +20,10 @@ int Dict_test() {
 }
 int query() {
     // WordQuery wqE("dictEn.txt", "indexEn.txt");
-    WordQuery wqC("dictCn.txt", "indexCn.txt");
+    // WordQuery wqC("dictCn.txt", "indexCn.txt");
+    WordQuery& wqC = WordQuery::getInstance("dictCn.txt", "indexCn.txt");
+    WordQuery& wq2 = WordQuery::getInstance("dictCn.txt", "indexCn.txt");
+    std::cout<<"wqC:"<<&wqC<<" wq2:"<<&wq2<<std::endl;
     std::string input;
     while (true) {
         std::cout << "请输入关键词 (exit退出): ";

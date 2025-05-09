@@ -20,6 +20,16 @@ set
 WordSegmenter.h
 ../../include/WordSegmenter.h
 
+../../include/WordQuery.h
+string
+-
+unordered_map
+-
+vector
+-
+set
+-
+
 ../../include/WordSegmenter.h
 Jieba.hpp
 -
@@ -304,23 +314,11 @@ ostream
 limonp/LocalVector.hpp
 /home/ub20/download/cppjieba/include/cppjieba/limonp/LocalVector.hpp
 
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.cpp
+/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/test.cpp
 DictProducer.h
-/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/src/DictProducer.h
-fstream
--
-sstream
--
+/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/DictProducer.h
+WordQuery.h
+/home/ub20/project/cpplearn/GCC_4_7_0/lunx_learn/netfiles/test/WordQuery.h
 iostream
--
-cctype
--
-locale
--
-algorithm
--
-dirent.h
--
-sys/stat.h
 -
 
