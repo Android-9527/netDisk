@@ -33,6 +33,7 @@ int query() {
             std::cout << "  " << word << "\n";
     }
 
+    
     return 0;
 }
 
